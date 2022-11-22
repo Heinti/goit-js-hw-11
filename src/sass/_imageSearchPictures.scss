@@ -1,0 +1,44 @@
+.search-form {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 25px;
+}
+
+.photo-card {
+    flex-flow: column;
+    flex-wrap: wrap;
+    margin-right: 30px;
+  }
+
+.photo {
+  display: block;
+  width: 350px;
+  height: 250px;
+}
+
+.load-more {
+  display: flex;
+  margin: 0px auto 20px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: large;
+  color: #fff;
+  background-color: rebeccapurple;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.search-toolbar {
+    background-color: greenyellow;
+    height: 15%;
+  }
