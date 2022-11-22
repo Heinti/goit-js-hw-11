@@ -41,7 +41,8 @@ function onClick(event) {
 }
 
 refs.btnLoadMore.addEventListener('click', onLoadBtn)
-function onLoadBtn(){
+function onLoadBtn(event){
+    event.preventDefault();
     pageNumber += 1;
 
 const clearInputValue = refs.input.value.trim();
